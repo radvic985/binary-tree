@@ -1,0 +1,64 @@
+input[type='number'] {
+    width: auto;
+    display: inline-block;
+}
+
+.table {
+    background-color: #e9ecef;
+}
+
+.table td {
+    border: none;
+    vertical-align: middle;
+}
+
+.binary {
+    border-radius: 50%;
+    padding: 5px;
+    background: #fff;
+    border: 2px solid #555555;
+    color: #555;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    width: 35px;
+    height: 35px;
+}
+
+.binary:hover {
+    cursor: pointer;
+}
+
+.binary-selected {
+    border-color: royalblue;
+    background-color: #fddc06b0;
+    color: royalblue;
+}
+
+.upper-lower {
+    border-color: red;
+    background-color: #fddc06b0;
+    color: red;
+}
+
+.from-binary {
+    border-color: lawngreen;
+    background-color: #0008fe91;
+    color: white;
+    border-width: thick;
+}
+
+.to-binary {
+    border-color: red;
+    background-color: #0008fe91;
+    color: white;
+    border-width: thick;
+}
+
+.to-danger {
+    border: 2px solid red;
+}
+
+.change-binary-tree, .change-param {
+    display: none;
+    margin: 10px;
+}
